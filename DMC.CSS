@@ -1,0 +1,123 @@
+/*logo style*/
+
+body{
+    background-image: url('./Devil May Cry/DMC5_Devil_May_Cry_Shop.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+
+
+.outer-container{
+    border: 3px solid black;
+    max-width: max-content;
+    height: 400px;
+    margin: autopx;
+    overflow: 50px;
+    background-color: black;
+}
+
+header{
+     text-align: center;
+}
+
+nav {
+    text-align: center;
+    background-color: white;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+   
+}
+
+
+nav ul li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    padding-right: 40px;
+    max-width: 100px;
+
+}
+
+nav ul li:hover {
+    color: darkred;
+}
+
+a{
+    color: inherit;
+    text-decoration: inherit;
+}
+
+
+a:visited{
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.image-container{
+    text-align: center;
+
+    
+}
+
+
+/* intro bar */
+
+.intro-text{
+    background-color: #ce1818;
+    Color: white;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+p{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    text-align: center 
+}
+
+footer{
+    border-top: 12px;
+    border-bottom: 12px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+
+/* GALLERY */
+
+
+
+.gallery-container{
+    background-color: #ce1818;
+    overflow: auto;
+}
+
+.Gallery-image{
+height: 600px;
+width: 600px;
+padding: 5px;
+box-sizing: border-box;
+outline: 12px solid black;
+outline-offset: -10px;
+
+}
+
+
+
+
+/* gallery links */
+
+
+
+
+
